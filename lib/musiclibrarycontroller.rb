@@ -44,6 +44,7 @@ class MusicLibraryController
       list_songs_by_genre
       call
     when "play song"
+      list_songs
       play_song
       call
     when "exit"
